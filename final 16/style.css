@@ -1,0 +1,45 @@
+
+
+@media only screen and (max-width: 1024px) and (min-width:768px)  {
+    
+    .main-container{
+        grid-template-columns: 280px 280px;
+    }
+
+    .navclass{
+        grid-template-columns: 280px 280px;
+
+    }
+
+    .footerclass{
+        grid-template-columns: 280px;
+
+    }
+
+
+}
+
+@media only screen and (max-width: 896px){
+    
+    .main-container{
+        grid-template-columns: 260px;
+    }
+
+    .navclass{
+        grid-template-columns: 260px;
+
+    }
+    .footerclass{
+        grid-template-columns: 260px;
+
+    }
+}
+body {
+    background: url('https://imgs.search.brave.com/iK3J720pm7oLZ9IRL5Km0CPRd2BFBTr9SIm4RiAZTCg/rs:fit:1200:1200:1/g:ce/aHR0cDovL3Nhdm9u/Zm9vZHNzdXBlcm1h/cmtldC5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMTcvMDYv/QmFja2dyb3VkLWlt/Zy5qcGc') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    
+  }
+  
